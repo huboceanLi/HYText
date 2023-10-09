@@ -1,0 +1,6 @@
+use_frameworks!
+target 'HYText_Tests' do
+  pod 'HYText', :path => '../'
+  
+  
+end

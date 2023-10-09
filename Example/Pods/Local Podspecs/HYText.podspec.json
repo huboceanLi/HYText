@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "summary": "A short description of HYText.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/li437277219@gmail.com/HYText",
+  "homepage": "https://github.com/huboceanLi/HYText",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "li437277219@gmail.com": "li437277219@gmail.com"
+    "ocean": "li437277219@gmail.com"
   },
   "source": {
-    "git": "https://github.com/li437277219@gmail.com/HYText.git",
+    "git": "https://github.com/huboceanLi/HYText.git",
     "tag": "0.1.0"
   },
   "platforms": {

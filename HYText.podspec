@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YYText'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A short description of HYText.'
 
 # This description is used to generate tags and improve search results.
@@ -28,14 +28,14 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/huboceanLi/HYText.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '15.0'
   s.requires_arc = true
   s.swift_version = '5.0'
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
   s.static_framework = true
   s.source_files = 'HYText/Classes/**/*'
-  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  # s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  # s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   
   # s.resource_bundles = {
   #   'HYText' => ['HYText/Assets/*.png']
